@@ -388,6 +388,7 @@ class EleveController extends Controller
         $details['body'] = "Veuillez Modifier votre mot de passe pour assurer la confidentialite de vos donnees et de vos actions au sein de la plateforme .
                             \n Mot de passe actuel: $user->email
                             \n Login actuel: $user->email
+                            \n Telecharger l'application via : https://drive.google.com/file/d/11sG1rToWqd1Nfh1heyAbnY77OJDou7dX/view?usp=drive_link
                             Pour cela, veuillez cliquer sur le ce lien pour proceder la la mise a jour de votre mot de passe .";
         $details['actiontext'] = "Modifier mon mot de passe";
         $details['actionurl'] = "https://react-admin-ashy-zeta.vercel.app/";
